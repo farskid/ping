@@ -1,4 +1,8 @@
 # Ping
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub version](https://badge.fury.io/gh/farskid%2Fping.svg)](https://badge.fury.io/gh/farskid%2Fping)
+
 An application to check network availablity developed with electron.
 
 >NOTE: If you're a designer or know your way around logo design, feel free to open an issue for designing a brand new logo for PING.
@@ -29,3 +33,5 @@ Send your PRs and we'll make sure they'll land on the project if need be :)
 
 ## License
 MIT.
+
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
