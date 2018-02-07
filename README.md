@@ -29,6 +29,11 @@ To contribute to the codebase:
 * `npm install`
 * `git checkout -b [YOUR_BRANCH]`
 
+To check your built app locally, try to run:
+`npm run deploy:local`
+
+>Note: For now, Ping is just built for Mac OS. If you need it on other platforms, we'll appreciate any contributions helping us deliver it sooner!
+
 Send your PRs and we'll make sure they'll land on the project if need be :)
 
 ## License
