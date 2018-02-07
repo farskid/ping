@@ -1,0 +1,27 @@
+{
+  "name": "ping",
+  "description": "Application to ping to check network availablity.",
+  "version": "0.1.0",
+  "main": "main.js",
+  "keywords": ["electron", "ping", "network"],
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "deploy:local":
+      "rm -rf /Applications/ping.app/ &&  cp -r dist/mac/ping.app /Applications/"
+  },
+  "build": {
+    "appId": "io.github.ping",
+    "mac": {
+      "category": "public.app-category.productivity",
+      "extendInfo": {
+        "LSUIElement": 1
+      }
+    }
+  },
+  "author": "Farzad YZ <farskid@gmail.com>",
+  "devDependencies": {
+    "electron": "^1.7.12",
+    "electron-builder": "^19.55.3"
+  }
+}
